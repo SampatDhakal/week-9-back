@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(cors());
-mongoose.connect("mongodb://0.0.0.0:27017/NotekeeperDb", {
+mongoose.connect("mongodb+srv://sampat:sampat@cluster0.lqqoxs8.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
 });
 
